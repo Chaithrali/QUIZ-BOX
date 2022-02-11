@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgresult3"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="334dp"
+        android:layout_height="52dp"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:text="RESULT"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCorrect"
+        android:layout_width="328dp"
+        android:layout_height="43dp"
+        android:layout_margin="40dp"
+        android:background="#43A047"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWrong"
+        android:layout_width="322dp"
+        android:layout_height="42dp"
+        android:layout_margin="40dp"
+        android:background="#EF1F1F"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFinal"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_margin="40dp"
+        android:background="#F1F13C"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="RESTART"
+        android:textSize="24sp"
+        app:backgroundTint="@color/black"
+        app:iconPadding="10dp" />
+</LinearLayout>

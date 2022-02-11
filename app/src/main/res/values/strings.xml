@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiz Box</string>
+    <string name="question_next">NEXT</string>
+    <string name="start_quiz">START</string>
+</resources>
